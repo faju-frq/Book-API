@@ -89,17 +89,16 @@ A secure RESTful API for managing users and books with JWT authentication, file-
         }
         ```
         in your body as raw-json
-   2. `GET /api/books` to list books.
-       > [!TIP]
-       > To limit the number of items to display at a time provide `?limit=` at the end of the api and to view paginated add `?page="page_no"&limt="limit_no"`
-   3. `GET /api/books/search?genre="Your_choice_of_genre"` to filter by genre
-   4. `GET /api/books/id` to get a book by its id.
-   5. `PUT /api/books/{id}` to update the book details.
-       > [!WARNING]
-       > only users who are the owner of that specific book data can update it
-   6. `DELETE /api/books/{id}` for update/delete
-       > [!WARNING]
-       > Only an owner of the book data can delete it.
+   2. `GET /api/books` to list books.  
+      > **💡 TIP:** To limit the number of items displayed at a time, provide `?limit=` at the end of the API. To view paginated results, add `?page=page_no&limit=limit_no`.
+
+3. `GET /api/books/search?genre=Your_choice_of_genre` to filter by genre
+4. `GET /api/books/id` to get a book by its id.
+5. `PUT /api/books/{id}` to update the book details.  
+   > **⚠️ WARNING:** Only users who are the owner of that specific book data can update it.
+
+6. `DELETE /api/books/{id}` to delete a book  
+   > **⚠️ WARNING:** Only the owner of the book data can delete it.
 
 ---
 
