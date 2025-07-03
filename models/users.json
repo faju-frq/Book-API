@@ -1,0 +1,12 @@
+[
+  {
+    "id": "bd6a6884-9c9e-4cc9-b981-34df49b29a95",
+    "email": "johndoe@gmail.com",
+    "password": "$2b$10$9LulqYTq8qETU2pMfV7aMONXACb0HmZmQoF.7RoHbTBQXg9wjJM3K"
+  },
+  {
+    "id": "3dd32eee-c648-441a-ae8e-0aca9e94ef70",
+    "email": "janedoe@gmail.com",
+    "password": "$2b$10$gQ7pDxSkREePRtPfrLRaT.kCG.8OPjKNtBc/Jh8bhawmjrTJipQaC"
+  }
+]

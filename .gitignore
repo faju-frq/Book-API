@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Truncating table scripts
+scripts/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Build output
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Misc
+*.swp
+*.swo
+
+# Prettier
+.prettier*
+
+# Ignore local database files
+*.sqlite
+*.sqlite3
+
+# Ignore Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
